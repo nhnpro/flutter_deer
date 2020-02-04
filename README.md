@@ -1,18 +1,15 @@
 # Flutter Deer
 
-[CSDN博客之星活动。微信或QQ打开，一天五票，感谢支持！](http://m234140.nofollow.ax.mvote.cn/opage/68ea3676-e445-1ca2-162d-3e2915feb14b.html)
+[CSDN blog star event. WeChat or QQ open, five tickets a day, thank you for your support！](http://m234140.nofollow.ax.mvote.cn/opage/68ea3676-e445-1ca2-162d-3e2915feb14b.html)
 
 <img src="preview/logo.jpg"/>
+This project is an exercise project for individuals to learn Flutter.
 
-本项目为个人学习Flutter的练习项目。
+By setting, modifying, combining built-in parts and customizing to achieve specific design effects, to meet the needs of daily development.
 
-通过设置、修改、组合自带部件以及自定义来实现具体的设计效果，满足日常开发的需求。
+The design drawings of this project can be found in the design catalog. You can practice with the designed drawings provided by me. All implementations are only personal learning and understanding. If there is a better implementation plan, please exchange.
 
-本项目设计图见design目录，你可以通过我提供的设计图有目标的去练习。所有的实现仅是个人的学习理解，如果有更好的实现方案欢迎交流。
-
-## 预览
-
-部分页面效果如下：
+Preview
 
 | ![](./preview/Screenshot_1.png)    |  ![](./preview/Screenshot_2.png)    | ![](./preview/Screenshot_3.png)   |  ![](./preview/Screenshot_4.png)   |
 | :--------------------------------: | :---------------------------------: | :-------------------------------: | :-------------------------------:  |
@@ -23,42 +20,42 @@
 | ![](./preview/Screenshot_22.jpg)   |  ![](./preview/Screenshot_23.jpg)   | ![](./preview/Screenshot_24.jpg)  |  ![](./preview/Screenshot_25.jpg)  |
 | ![](./preview/Screenshot_26.jpg)   |  ![](./preview/Screenshot_27.jpg)   |  |  |
 
-**觉得还可以的话，来个Star、Fork支持一波！有问题欢迎提Issue。**
+** If you think it's okay, come to Star and Fork to support it! Questions are welcome to mention Issue. **
 
-## 实现内容
+## Implementing content
 
-* mvp模式
-* 使用`provider` (4.x 版本)做状态管理
-* 基于`dio` （3.x 版本）的网络请求封装
-* 完整的集成测试
-* 支持深色模式
-* 使用`Sliver` 系列组件实现复杂滚动效果
-* 使用高德地图定位选择地址
-* 输入框等部件的处理封装
-* 下拉刷新 + 上拉加载更多
-* 应用检查更新
+* mvp mode
+* Use `provider` (version 4.x) for state management
+* Based on `dio` (3.x version) network request encapsulation
+* Complete integration testing
+* Supports dark mode
+* Use `Sliver` series components to achieve complex scrolling effects
+* Use Gaode map to locate the address
+* Processing packaging of input boxes and other components
+* Pull down to refresh + pull up to load more
+* Apply check for updates
 * PopupWindow
-* 扫码功能（barcode_scan插件）
-* 简易的过渡动画
-* 侧滑删除
-* 城市选择
-* 类似京东选择城市的三级联动
-* 各种自定义Dialog
-* 列表头部吸顶
-* 密码输入键盘
-* 验证码输入框
-* 自定义简易日历
-* 曲线图及[饼状图](https://dartpad.cn/d06f8f737d6eb2d87978eb2d14b87864)
-* 模块化路由管理
-* 更多的细节优化
+* Scan code function (barcode_scan plugin)
+* Easy transition animation
+* Slide to delete
+* City selection
+* Similar to the three-tier linkage of Jingdong's choice city
+* Various custom Dialogs
+* List head ceiling
+* Password input keyboard
+* Verification code input box
+* Custom simple calendar
+* Graph and [pie chart] (https://dartpad.cn/d06f8f737d6eb2d87978eb2d14b87864)
+* Modular routing management
+* More details optimization
 
-具体可以下载体验：
+Specific download experience:
 
-Android版安装包：[点击下载](https://www.pgyer.com/gYXj)，安装密码：`111111`。
+Android version installation package: [click to download] (https://www.pgyer.com/gYXj), installation password: `111111`.
 
-iOS需要自行下载代码运行。
+iOS needs to download the code to run by itself.
 
-## 项目运行环境
+## Project running environment
 
 [![Build Status](https://github.com/simplezhli/flutter_deer/workflows/flutter_deer%20drive/badge.svg?branch=master)](https://github.com/simplezhli/flutter_deer/actions?query=workflow%3A%22flutter_deer+driver%22+branch%3Amaster)
 
@@ -109,52 +106,51 @@ iOS需要自行下载代码运行。
 详细内容可以参看[pubspec.yaml](https://github.com/simplezhli/flutter_deer/blob/master/pubspec.yaml)文件    
 
 ## 后续计划：
+* [x] Add map function, see [flutter_2d_amap] (https://github.com/simplezhli/flutter_2d_amap)
 
-* [x] 添加地图功能，具体实现插件见 [flutter_2d_amap](https://github.com/simplezhli/flutter_2d_amap)
+* [x] pull down to refresh + pull up to load more
 
-* [x] 下拉刷新 + 上拉加载更多
+* [x] Introduce state management, expect to use [provider] (https://github.com/rrousselGit/provider)
 
-* [x] 引入状态管理，预计使用 [provider](https://github.com/rrousselGit/provider)
+* [x] pages add annotations to the design drawing path to find the corresponding design drawing.
 
-* [x] 页面添加设计图路径注释，方便寻找对应的设计图。
+* [x] The use of this set of frameworks and components in the project will fix and optimize the problems encountered synchronously.
 
-* [x] 项目中有使用这一套框架及组件，会同步修复及优化遇到的问题。
+* [x] Added integration tests.
 
-* [x] 添加集成测试。
+* [x] dark mode support.
 
-* [x] 深色模式支持。
+* [x] Added `Semantics`
 
-* [x] 添加`Semantics`（语义）
+* [] Web-side support.
 
-* [ ] Web端支持。
+## Known issues:
 
-## 已知问题：
+-1.12.13 + hotfix.5 Known issues (# 47270 # 47137 ~~ # 47462 ~~ ~~ # 47804 ~~ ~~ # 47021 ~~).
 
-- 1.12.13+hotfix.5 已知问题（#47270 #47137 ~~#47462~~ ~~#47804~~ ~~#47021~~）。
+-In the case of a ListView without a dividing line, there is an interval of about 1 pixel between individual items ([Pixel Alignment Issue] (https://github.com/flutter/flutter/issues/14288)).
 
-- ListView在没有设置分割线的情况下，个别Item之间存在大约1像素的间隔（[像素对齐问题](https://github.com/flutter/flutter/issues/14288)）。
+-When the dark mode is turned on on iOS phones, [the status bar text cannot be modified to black] (https://github.com/flutter/flutter/issues/41067).
 
-- 在iOS手机上开启深色模式时，[无法将状态栏文字修改为黑色](https://github.com/flutter/flutter/issues/41067)。
+-1.9.1 is supported. Use `keyboardType: TextInputType.visiblePassword`. ~~ Input box without setting the `obscureText` property (false), [Unable to pop up password mode keyboard] (https://github.com/flutter/flutter/issues/31738), can be temporarily removed using` BlacklistingTextInputFormatter` Possible Chinese input. ~~
 
-- 1.9.1已支持，使用`keyboardType: TextInputType.visiblePassword`即可。~~输入框在不设置`obscureText`属性的情况下(false)，[无法弹出密码模式键盘](https://github.com/flutter/flutter/issues/31738)，可暂时使用`BlacklistingTextInputFormatter`去除可能会输入的中文。~~
+-1.12.13 has been fixed. ~~ On 1.9.1, when the text field is Chinese, [the cursor and the input text are not centered] (https://github.com/flutter/flutter/issues/40248), you can temporarily use `textBaseline: TextBaseline .alphabetic` handles this question. ~~
 
-- 1.12.13已修复。~~在1.9.1上，TextField在语言环境为中文时，[光标与输入文字不居中显示](https://github.com/flutter/flutter/issues/40248)，可暂时使用`textBaseline: TextBaseline.alphabetic` 处理此问提。~~
+## Experience and problem records
 
-## 心得及问题记录
+-[Some Tips in Flutter Development (1)] (https://weilu.blog.csdn.net/article/details/90546727)
 
-- [Flutter开发中的一些Tips(一)](https://weilu.blog.csdn.net/article/details/90546727)
+-[Some Tips in Flutter Development (2)] (https://weilu.blog.csdn.net/article/details/94849020)
 
-- [Flutter开发中的一些Tips(二)](https://weilu.blog.csdn.net/article/details/94849020)
+-[Some Tips in Flutter Development (3)] (https://weilu.blog.csdn.net/article/details/100108123)
 
-- [Flutter开发中的一些Tips(三)](https://weilu.blog.csdn.net/article/details/100108123)
+-[Flutter Adapts Dark Mode] (https://weilu.blog.csdn.net/article/details/102531559)
 
-- [Flutter适配深色模式（DarkMode）](https://weilu.blog.csdn.net/article/details/102531559)
+-[Talk about RepaintBoundary in Flutter] (https://weilu.blog.csdn.net/article/details/103452637)
 
-- [说说Flutter中的RepaintBoundary](https://weilu.blog.csdn.net/article/details/103452637)
+-[Talk about Semantics in Flutter] (https://weilu.blog.csdn.net/article/details/103823259)
 
-- [说说Flutter中的Semantics](https://weilu.blog.csdn.net/article/details/103823259)
-
-- [Flutter动画曲线Curves 效果一览](https://weilu.blog.csdn.net/article/details/95632571)
+-[Flutter Animation Curves List] (https://weilu.blog.csdn.net/article/details/95632571)
 
 ## Thanks For
 
